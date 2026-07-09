@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html pt="br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="estilo.css">
+    
+</head>
+<body>
+    <main id="container">
+       
+        <section id="calculator">
+            <form  id="form">
+                <h1 id="title">
+                    Calculadora - IMC
+                </h1>
+                <div class="input-box">
+                    <label for="weigth">
+                        Peso em KG
+                    </label>
+                    <div class="input-field">
+                     <input type="number" id="weigth" required>
+                        <span>
+                            KG
+                        </span>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <label for="heigth">
+                        Altura em Mts - 
+                        Usar . ex:- 1.72
+                    </label>
+                    <div class="input-field">
+                     <input type step='0.01'="number" id="heigth" required>
+                        <span>
+                           Mts
+                        </span>
+                    </div>
+                </div>
+                <button id="calculate">
+                    Calcular
+                </button>
+            </form>
+            <div id="infos" class="hidden">
+                <div id="result">
+                    <div id="bmi">
+                        <span id="value"></span>
+                        <span>  É o seu IMC</span>
+                    </div>
+                    <div id="description">
+                        <span></span>
+                    </div>
+                </div>
+                <div id="more_info" >
+                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm" target="_blank">Mais informações sobre o IMC</a>
+                </div>
+            </div>
+        </section>
+
+    </main>
+    
+      <script src="script.js"></script>
+    
+</body>
+</html>
