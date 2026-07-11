@@ -55,7 +55,7 @@ margin-top: 3px;
 }
 #calculate {
     border: none;
-    font-size: 1.5rem;
+    font-size: 2.0rem;
     font-weight: bold;
     background-color: #16a34a;
     color: #f8fafc;
@@ -93,4 +93,14 @@ margin-top: 3px;
 }
 .atencao {
     color: red;
+}
+.input-field >input[type="number"] {
+    padding: 0.5rem;
+    font-size: 1rem;
+    text-align: center;
+}
+
+span {
+    font-size: 1.5rem;
+    margin-left: 4px;
 }
