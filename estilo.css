@@ -81,6 +81,7 @@ margin-top: 3px;
 #more_info a {
     color: #16a34a;
     text-decoration: none;
+    font-size: 1.2rem;
 }
 #more_info a:hover{
     color: #cbd5e1;
