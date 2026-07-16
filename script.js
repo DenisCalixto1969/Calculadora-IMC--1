@@ -16,12 +16,12 @@ const form = document.getElementById('form');
      document.getElementById('infos').classList.remove('hidden');
 
      if (bmi < 18.5) {
-        description  = 'Cuidado! Voce esta abaixo do peso.'; 
+        description  = 'Atenção! Voce esta abaixo do peso.'; 
         descContainer.classList.add('texto-alerta');
         value.classList.add('texto-alerta');
 
      } else if (bmi >= 18.5 && bmi <= 25) {
-      description = 'Parabens! Voce esta no peso ideal.'
+      description = 'Parabens *** Voce esta no peso ideal.'
       descContainer.classList.add('texto-sucesso');
         value.classList.add('texto-sucesso');
       
@@ -31,19 +31,19 @@ const form = document.getElementById('form');
       value.classList.add('texto-alerta');
 
      } else if (bmi >= 30 && bmi <= 35) {
-      description = 'Cuidado! Voce esta com obesidade moderada.'
+      description = 'Cuidado!! Voce esta com obesidade moderada.'
       descContainer.classList.add('texto-perigo'); 
       value.classList.add('texto-perigo');
       
 
      } else if (bmi >= 35 && bmi <= 40) {
-      description = 'Cuidado! Voce esta com obesidade severa.'
+      description = 'Cuidado!!! Voce esta com obesidade severa.'
       descContainer.classList.add('texto-perigo'); 
       value.classList.add('texto-perigo');
       
 
      } else {
-      description = 'Cuidado!! Voce esta com obesidade morbida.'
+      description = 'Cuidado!!!! Voce esta com obesidade morbida.'
       descContainer.classList.add('texto-perigo'); 
       value.classList.add('texto-perigo');
     }
