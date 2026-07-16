@@ -107,12 +107,27 @@ margin-top: 3px;
     margin-left: 6px;
 }
 
-.b {
-    margin-left: 2.0rem;
-}
+
 .d {
     font-size: 1.2rem;
     text-align: center;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
 
+/* Cor Verde para quando estiver tudo bem */
+.texto-sucesso {
+    color: #2ecc71;
+    font-weight: bold;
+}
+
+/* Cor Amarela/Laranja para atenção (Abaixo do peso / Sobrepeso) */
+.texto-alerta {
+    color: #f1c40f;
+    font-weight: bold;
+}
+
+/* Cor Vermelha para situações graves (Obesidades) */
+.texto-perigo {
+    color: red;
+    font-weight: bold;
 }
